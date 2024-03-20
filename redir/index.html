@@ -62,6 +62,13 @@
     <div id="text" class="text">Joining <strong class="bold-text-3">your</strong> requested <strong class="bold-text-4">game...</strong></div>
 </body>
 <script type="text/javascript">
+	let logo = ` █████  ██████  ███████       ██   ██ 
+██   ██ ██   ██ ██             ██ ██  
+███████ ██████  █████   █████   ███   
+██   ██ ██   ██ ██             ██ ██  
+██   ██ ██████  ██            ██   ██ `
+	console.log(logo);
+        console.log("ender was here :P");
         window.onload = function() {
             const urlParams = new URLSearchParams(window.location.search);
             const url = urlParams.get('q');
@@ -72,5 +79,5 @@
                 document.getElementById('text').innerHTML = 'No redirect arguments have been given?!';
             }
         };
-    </script>
+</script>
 </html>
